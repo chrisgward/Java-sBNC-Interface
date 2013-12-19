@@ -16,6 +16,17 @@
 		</dependency>
 	</dependencies>
 
+	<distributionManagement>
+		<snapshotRepository>
+			<id>chrisgward-repo</id>
+			<url>http://repo.chrisgward.com/content/repositories/snapshots</url>
+		</snapshotRepository>
+		<repository>
+			<id>chrisgward-repo</id>
+			<url>http://repo.chrisgward.com/content/repositories/releases</url>
+		</repository>
+	</distributionManagement>
+
 	<build>
 		<plugins>
 			<plugin>
